@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --verbose"
+  },
+  "eslintConfig":{
+    "env":{
+      "jest":true
+    }
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "jest":{
+    "testEnvironment":"node"
+  }
+}
